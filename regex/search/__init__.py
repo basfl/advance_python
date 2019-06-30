@@ -1,0 +1,1 @@
+from search.search_word import lookup_word
