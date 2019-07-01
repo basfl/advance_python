@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+RandomWords	game_util/gen_word_util.py	/^from random_word import RandomWords$/;"	kind:namespace	line:1
+__init__.py	game_util/__init__.py	1;"	kind:file	line:1
+app.py	app.py	1;"	kind:file	line:1
+cnt	app.py	/^                cnt = cnt+1$/;"	kind:variable	line:39
+cnt	app.py	/^cnt = 0$/;"	kind:variable	line:18
+correct_guess	app.py	/^                correct_guess = correct_guess+len(rs)$/;"	kind:variable	line:34
+correct_guess	app.py	/^correct_guess = 0$/;"	kind:variable	line:19
+game.py	game_util/game.py	1;"	kind:file	line:1
+gen_word	app.py	/^from game_util import gen_word$/;"	kind:namespace	line:9
+gen_word	game_util/__init__.py	/^from game_util.gen_word_util import gen_word/;"	kind:namespace	line:1
+gen_word	game_util/gen_word_util.py	/^def gen_word():$/;"	kind:function	line:9
+gen_word_util.py	game_util/gen_word_util.py	1;"	kind:file	line:1
+guess	app.py	/^    guess = input("please guess a character:\\n")$/;"	kind:variable	line:27
+guessed_character_set	app.py	/^guessed_character_set = set()$/;"	kind:variable	line:20
+my_guess	app.py	/^my_guess = []$/;"	kind:variable	line:11
+random	game_util/gen_word_util.py	/^import random$/;"	kind:namespace	line:2
+random_word	app.py	/^random_word = gen_word()$/;"	kind:variable	line:10
+rs	app.py	/^                rs = [i for i, ltr in enumerate(random_word) if ltr == guess]$/;"	kind:variable	line:33

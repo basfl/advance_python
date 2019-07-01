@@ -1,0 +1,1 @@
+from game_util.gen_word_util import gen_word
