@@ -1,0 +1,5 @@
+{
+  "test_sample.py::test_add2": true,
+  "test_sample_param.py::test_add[3-5-12]": true,
+  "test_sample_param.py::test_add[6-6-13]": true
+}

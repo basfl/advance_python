@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="pytest" skips="3" tests="5" time="0.109">
+	<testcase classname="test_sample_skip" file="test_sample_skip.py" line="3" name="test_add1" time="0.0">
+	</testcase>
+	<testcase classname="test_sample_skip" file="test_sample_skip.py" line="7" name="test_add2" time="0.001992464065551758">
+		<skipped message="unconditional skip" type="pytest.skip">
+			test_sample_skip.py:7: &lt;py._xmlgen.raw object at 0x0000027F5D409550&gt;
+		</skipped>
+	</testcase>
+	<testcase classname="test_sample_skip" file="test_sample_skip.py" line="12" name="test_add3" time="0.0010361671447753906">
+		<skipped message="expected test failure">
+		</skipped>
+	</testcase>
+	<testcase classname="test_sample_skip" file="test_sample_skip.py" line="17" name="test_add4" time="0.0">
+		<skipped message="unconditional skip" type="pytest.skip">
+			test_sample_skip.py:17: &lt;py._xmlgen.raw object at 0x0000027F5C376048&gt;
+		</skipped>
+	</testcase>
+	<testcase classname="test_sample_skip" file="test_sample_skip.py" line="22" name="test_add5" time="0.0">
+	</testcase>
+</testsuite>

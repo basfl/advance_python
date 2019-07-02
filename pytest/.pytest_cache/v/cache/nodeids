@@ -1,0 +1,5 @@
+[
+  "test_sample_api.py::test_list_valid_user[1-George]",
+  "test_sample_api.py::test_list_valid_user[2-Janet]",
+  "test_sample_api.py::test_list_invaliduser"
+]

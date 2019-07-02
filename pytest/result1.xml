@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="pytest" skips="0" tests="3" time="1.547">
+	<testcase classname="test_sample_api" file="test_sample_api.py" line="10" name="test_list_valid_user[1-George]" time="0.468005895614624">
+	</testcase>
+	<testcase classname="test_sample_api" file="test_sample_api.py" line="10" name="test_list_valid_user[2-Janet]" time="0.49301695823669434">
+	</testcase>
+	<testcase classname="test_sample_api" file="test_sample_api.py" line="20" name="test_list_invaliduser" time="0.3810758590698242">
+	</testcase>
+</testsuite>
