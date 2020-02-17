@@ -26,5 +26,6 @@ class MongoDatabase:
         db = client.ptest
         return db
 
-    def get_collection(self, database, collection_name):
+    @staticmethod
+    def get_collection(database, collection_name):
         return database.get_collection(collection_name)
