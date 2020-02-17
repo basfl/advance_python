@@ -11,8 +11,8 @@ config.read('../mongodb/db.ini')
 
 def db_start():
     print("**Connecting to Database**")
-    user = config['mysql']['user']
-    password = config['mysql']['pass']
+    user = config['mongodb']['user']
+    password = config['mongodb']['pass']
     client = MongoClient(
         'mongodb+srv://'+user+':'+password+'@cluster0-x20zq.mongodb.net/test')
     db = client.ptest
