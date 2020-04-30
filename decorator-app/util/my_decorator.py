@@ -10,7 +10,7 @@ def somethingargs(param):
     def outter(fn):
         def wrapper(*args,**kwargs):
             rs=fn(*args,**kwargs)
-            final=rs*param;
+            final=rs*param
             print(f"final is {final}")
             return final
         return wrapper
